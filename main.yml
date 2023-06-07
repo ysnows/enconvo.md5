@@ -1,0 +1,21 @@
+name: MD5
+version: 0.0.1
+author: ysnows
+on: {}
+steps:
+- name: ''
+  uses: javascript
+  env:
+    JSFilePath:
+      type: file-path
+      value: main.js
+      sort: 0
+      messages: []
+extensionId: enconvo.md5
+logo: ns:translate
+description: get md5 of content
+async: false
+homePage: https://github.com/ysnows/enconvo.md5
+appCast: https://raw.githubusercontent.com/ysnows/enconvo.md5/main/appcast.json
+minAppVersion: 1.2.1
+flowType: plugin
