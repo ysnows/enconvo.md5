@@ -2,6 +2,12 @@
   "identifier": "enconvo.md5",
   "versions": [
     {
+      "version": "0.0.3",
+      "desc": "1. optimize",
+      "url": "https://github.com/ysnows/enconvo.md5/releases/download/v0.0.3/enconvo.md5.enconvoplugin",
+      "minAppVersion": "1.2.1"
+    },
+    {
       "version": "0.0.2",
       "desc": "feat: 1. init",
       "url": "https://github.com/ysnows/enconvo.md5/releases/download/v0.0.2/enconvo.md5.enconvoplugin",
