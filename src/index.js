@@ -1,4 +1,4 @@
-var utils = require("./utils");
+const utils = require("./utils");
 (async () => {
     try {
         const paramText = $text || $context.value || await $clipboard.readText();

@@ -30,7 +30,8 @@
     "*.js"
   ],
   "dependencies": {
-    "crypto-js": "^4.1.1"
+    "crypto-js": "^4.1.1",
+    "langchain": "^0.0.110"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
