@@ -1,9 +1,11 @@
 const utils = require("./utils");
+const {Clipboard} = require("enconvo.sdk/src/lib/bridge/clipboard");
+
 (async () => {
     try {
-        const paramText = $text || $context.value || await $clipboard.readText();
+        console.log(`copy: ${await Clipboard.copy()}`);
+        const paramText = $text || await Clipboard.copy();
         // md5 加密
-        console.log(`paramText: ${process.env['appid']}`);
         console.log(`paramText: ${JSON.stringify($context)}`);
         const completeContent = await utils.md5(paramText)
         console.log(`completeContent: ${completeContent}`);
