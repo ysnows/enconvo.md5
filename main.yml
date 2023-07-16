@@ -8,7 +8,7 @@ steps:
   env:
     JSFilePath:
       type: file-path
-      value: main.js
+      value: index.js
       sort: 0
       messages: []
 extensionId: enconvo.md5

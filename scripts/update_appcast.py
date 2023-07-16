@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 def update_appcast(message,repo_name):
-    with open('main.yml', 'r') as file:
+    with open('index.yml', 'r') as file:
         yaml_file = yaml.safe_load(file)
         version = yaml_file['version']
         minAppVersion = yaml_file['minAppVersion']
