@@ -8,6 +8,10 @@ if (!fs.existsSync('./dist')) {
 }
 
 browserify(['./src/index.js'])
+    .transform('babelify', {
+        presets: ['@babel/preset-env'],
+        global: true
+    })
     .plugin(tinyify, {
         env: {
             appid: 'enconvo.md5'

@@ -31,7 +31,7 @@
   ],
   "dependencies": {
     "crypto-js": "^4.1.1",
-    "enconvo.sdk": "file:../enconvo.sdk"
+    "enconvo": "^1.1.6"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
